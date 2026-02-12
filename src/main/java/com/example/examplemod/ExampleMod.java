@@ -1,6 +1,8 @@
 package com.example.examplemod;
 
-import com.example.examplemod.item.ModItem;
+import com.example.examplemod.registry.block.ModBlock;
+import com.example.examplemod.registry.item.ModItem;
+import com.example.examplemod.registry.item.VanilaPlusModTab;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -38,6 +40,8 @@ public class ExampleMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItem.register(modEventBus);
+        ModBlock.register(modEventBus);
+        VanilaPlusModTab.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

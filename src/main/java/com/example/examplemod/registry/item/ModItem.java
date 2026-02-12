@@ -1,4 +1,4 @@
-package com.example.examplemod.item;
+package com.example.examplemod.registry.item;
 
 import com.example.examplemod.ExampleMod;
 import net.minecraft.world.item.Item;

@@ -1,3 +1,5 @@
 {
-  "item.vanilaplusmod.unobtanium_ingot": "Unobtanium Ingot"
+  "item.vanilaplusmod.unobtanium_ingot": "Unobtanium Ingot",
+  "creativetab.vanilaplus": "Vanila plus",
+  "block.vanilaplusmod.unobtanium_ore": "Unobtanium ore"
 }
