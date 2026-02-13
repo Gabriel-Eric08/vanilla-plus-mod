@@ -20,6 +20,7 @@ public class VanilaPlusModTab {
                     .displayItems((pParamters, pOutput)-> {
                         pOutput.accept(ModItem.UNOBTANIUM_INGOT.get());
                         pOutput.accept((ModBlock.UNOBTANIUM_ORE.get()));
+                        pOutput.accept(ModItem.UNOBTANIUM_APPLE.get());
                     })
                     .build());
 

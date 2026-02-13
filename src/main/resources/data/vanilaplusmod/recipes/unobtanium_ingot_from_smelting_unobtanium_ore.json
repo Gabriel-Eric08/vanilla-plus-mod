@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "unobtanium",
+  "ingredient": {
+    "item": "vanilaplusmod:unobtanium_ore"
+  },
+  "result": "vanilaplusmod:unobtanium_ingot"
+}
